@@ -1,18 +1,19 @@
 {
-  "dependencies": {
-    "expo-cli": "^4.3.2",
-    "express": "^4.17.1",
-    "global": "^4.4.0"
-  },
   "name": "google-trend-api",
   "version": "1.0.0",
   "description": "Nodejs RESTAPI for google-trend-api",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kelvin2go",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "expo-cli": "^4.3.2",
+    "express": "^4.17.1",
+    "global": "^4.4.0",
+    "nodemon": "^2.0.13"
+  }
 }
