@@ -25,7 +25,7 @@ googleTrendRouter.get('/geo', function (req, res) {
   return res.json(GEO);
 });
 
-googleTrendRouter.get('/dailytrends', async function (req, res) {
+googleTrendRouter.get('/dailyTrends', async function (req, res) {
   console.log(req.query);
   if (!GEO_CODE_ONLY.includes(req.query?.geo)) {
     res.status(422).send({ error: 'Invalid GEO code' });
