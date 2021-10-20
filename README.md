@@ -10,7 +10,7 @@ var options = {
   params: {keyword: 'Valentine', geo: 'US'},
   headers: {
     'x-rapidapi-host': 'google-trend-api.p.rapidapi.com',
-    'x-rapidapi-key': 'noj7gDdwGBmshIvNBsaZG8QGggTxp1LsDx5jsnJkCM4SOUg8qU'
+    'x-rapidapi-key': '{key}'
   }
 };
 ```
@@ -23,7 +23,7 @@ var options = {
   url: 'https://google-trend-api.p.rapidapi.com/category',
   headers: {
     'x-rapidapi-host': 'google-trend-api.p.rapidapi.com',
-    'x-rapidapi-key': 'noj7gDdwGBmshIvNBsaZG8QGggTxp1LsDx5jsnJkCM4SOUg8qU'
+    'x-rapidapi-key': '{key}'
   }
 };
 ```
@@ -48,7 +48,7 @@ var options = {
   params: {geo: 'US'},
   headers: {
     'x-rapidapi-host': 'google-trend-api.p.rapidapi.com',
-    'x-rapidapi-key': 'noj7gDdwGBmshIvNBsaZG8QGggTxp1LsDx5jsnJkCM4SOUg8qU'
+    'x-rapidapi-key': '{key}'
   }
 };
 ```
@@ -60,7 +60,7 @@ var options = {
   params: {keyword: 'Valentine', geo: 'US'},
   headers: {
     'x-rapidapi-host': 'google-trend-api.p.rapidapi.com',
-    'x-rapidapi-key': 'noj7gDdwGBmshIvNBsaZG8QGggTxp1LsDx5jsnJkCM4SOUg8qU'
+    'x-rapidapi-key': '{key}'
   }
 };
 ```
