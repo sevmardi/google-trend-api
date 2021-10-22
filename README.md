@@ -36,7 +36,7 @@ var options = {
   params: {date: '2021-10-20', geo: 'US', category: '316'},
   headers: {
     'x-rapidapi-host': 'google-trend-api.p.rapidapi.com',
-    'x-rapidapi-key': 'noj7gDdwGBmshIvNBsaZG8QGggTxp1LsDx5jsnJkCM4SOUg8qU'
+    'x-rapidapi-key': '{key}'
   }
 };
 ```
