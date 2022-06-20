@@ -1,6 +1,9 @@
+const compression = require('compression');
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
+
+app.use(compression());
 
 const { GoogleTrendRouter } = require('./lib/googleTrend');
 const { TTSRouter } = require('./lib/textToSpeech');

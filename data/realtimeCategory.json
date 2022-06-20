@@ -1,0 +1,9 @@
+{ 
+    "All categories": "all",
+    "Business": "b",
+    "Entertainment": "e",
+    "Health":"m",
+    "Sci/Tech": "t",
+    "Sports":"s",
+    "Top Stories": "h"
+}
