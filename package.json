@@ -17,6 +17,7 @@
     "express": "^4.17.1",
     "global": "^4.4.0",
     "google-trends-api": "^4.9.2",
+    "lru-cache": "^7.13.2",
     "node-gtts": "^2.0.2",
     "nodemon": "^2.0.13"
   }
