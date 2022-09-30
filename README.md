@@ -4,7 +4,7 @@
 ```
 var options = {
   method: 'GET',
-  url: 'https://google-trend-api.p.rapidapi.com/interestOverTime',
+  url: '/interestOverTime',
   params: {keyword: 'Valentine', geo: 'US'},
   headers: {
     'x-rapidapi-host': 'google-trend-api.p.rapidapi.com',
@@ -18,7 +18,7 @@ var options = {
 ```
 var options = {
   method: 'GET',
-  url: 'https://google-trend-api.p.rapidapi.com/category',
+  url: '/category',
   headers: {
     'x-rapidapi-host': 'google-trend-api.p.rapidapi.com',
     'x-rapidapi-key': '{key}'
@@ -30,7 +30,7 @@ var options = {
 ```
 var options = {
   method: 'GET',
-  url: 'https://google-trend-api.p.rapidapi.com/dailyTrends',
+  url: '/dailyTrends',
   params: {date: '2021-10-20', geo: 'US', category: '316'},
   headers: {
     'x-rapidapi-host': 'google-trend-api.p.rapidapi.com',
@@ -42,7 +42,7 @@ var options = {
 ```
 var options = {
   method: 'GET',
-  url: 'https://google-trend-api.p.rapidapi.com/realTimeTrends',
+  url: '/realTimeTrends',
   params: {geo: 'US'},
   headers: {
     'x-rapidapi-host': 'google-trend-api.p.rapidapi.com',
@@ -54,7 +54,7 @@ var options = {
 ```
 var options = {
   method: 'GET',
-  url: 'https://google-trend-api.p.rapidapi.com/interestOverTime',
+  url: '/interestOverTime',
   params: {keyword: 'Valentine', geo: 'US'},
   headers: {
     'x-rapidapi-host': 'google-trend-api.p.rapidapi.com',
