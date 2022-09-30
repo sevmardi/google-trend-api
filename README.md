@@ -1,6 +1,4 @@
-# rapid-google-trend-api
 
-https://rapidapi.com/kelvin2go/api/google-trend-api/
 
 ## get geo code
 ```
